@@ -73,9 +73,15 @@
 								"properties": null
 							},
 							{
-								"name": "copy-jar",
-								"definition": "Copy final JAR to expected location",
-								"command": "ls target/*\n\ncp -f target/*.[jwe]ar **/target/*.[jwe]ar .",
+								"name": "CurrentDIR",
+								"definition": "CurrentDIR",
+								"command": "pwd",
+								"properties": null
+							},
+							{
+								"name": "List",
+								"definition": "List",
+								"command": "ls -latr",
 								"properties": null
 							}
 						],
