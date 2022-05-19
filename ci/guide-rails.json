@@ -90,8 +90,21 @@
 				]
 			}
 		],
-		"exit_actions": {},
-		"default_properties": [],
+		"exit_actions": {
+			"default": {
+				"code_analysis": {
+					"publish": true,
+					"properties": null
+				}
+			}
+		},
+		"default_properties": [
+			{
+				"name": "source_dirs",
+				"value": "./",
+				"type": "string"
+			}
+		],
 		"deployment_files": [],
 		"application_init": {}
 	},
