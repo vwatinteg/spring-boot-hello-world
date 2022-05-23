@@ -71,18 +71,6 @@
 								"definition": "Run the maven package command",
 								"command": "mvn package",
 								"properties": null
-							},
-							{
-								"name": "CurrentDIR",
-								"definition": "CurrentDIR",
-								"command": "pwd",
-								"properties": null
-							},
-							{
-								"name": "List",
-								"definition": "List",
-								"command": "ls -latr",
-								"properties": null
 							}
 						],
 						"docker_options": {}
